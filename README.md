@@ -5,13 +5,11 @@
 docker-compose build
 
 docker-compose up -d
-
 ```
 
 ## run
 ```
 docker-compose run backend rails ...
-
 ```
 
 ## description
