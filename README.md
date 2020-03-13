@@ -1,24 +1,20 @@
-# README
+# rails-vue-backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## start
+```
+docker-compose build
 
-Things you may want to cover:
+docker-compose up -d
 
-* Ruby version
+```
 
-* System dependencies
+## run
+```
+docker-compose run backend rails ...
 
-* Configuration
+```
 
-* Database creation
+## description
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+タスク管理アプリケーションのAPIを開発しました。開発にはDockerを使って構築しました。言語はRuby on Railsを用いて、apiモードでファイルを作成しました。
+データをjsonで返し、Vue.jsで開発したクライアント側がデータを取得し、viewに映すというアーキテクチャです。
